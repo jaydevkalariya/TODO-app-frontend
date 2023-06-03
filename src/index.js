@@ -4,8 +4,8 @@ import App from "./App.jsx";
 import "./styles/app.scss";
 import { createContext } from "react";
 import axios from "axios";
-export const server = "https://todoapp-xcbq.onrender.com/api/v1";
-
+// export const server = "https://todoapp-xcbq.onrender.com/api/v1";
+export const server = "http://localhost:3000/api/v1";
 export const Context = createContext({ isAuthenticated: false });
 
 

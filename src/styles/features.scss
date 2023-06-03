@@ -98,4 +98,13 @@ $shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     background-color: $color2;
     outline: none;
   }
+ 
+    textarea {
+      width: 100%;
+      padding: 1rem;
+      border: 1px solid $color4;
+      font: 400 1rem $text1;
+      background-color: $color2;
+      outline: none;
+    }
 }
